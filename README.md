@@ -12,7 +12,8 @@ A set of recipes for automating Linux tasks.
 
     minute hour day_of_month month day_of_week path/to/script/file
     
-##  field          allowed values
+##  
+    field          allowed values
     -----          --------------
     minute         0-59
     hour           0-23
