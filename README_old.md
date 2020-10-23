@@ -4,30 +4,6 @@ A set of recipes for automating Linux tasks.
 *Because we were built to do greater things!!*
 
 
-# Steps to automate the script execution on system startup
-
-1. sudo crontab -e  => opens in nano editor
-
-2. Add entries in the following format:
-
-    minute hour day_of_month month day_of_week path/to/script/file
-    
-##  field          allowed values
-    -----          --------------
-    minute         0-59
-    hour           0-23
-    day_of_month   1-31
-    month          1-12 (or names, 1 is jan or January, 12 is dec or December)
-    day_of_week    0-7 (or use names, 0 or 7 is Sunday)
-
-3. Save the file and exit.
-    
-    Press the following keys:
-      1. Ctrl+X
-      2. y
-      3. Enter
-      
-
 # To-do
 1. Memory hogging task killer.
 
